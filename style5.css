@@ -1,0 +1,217 @@
+body {
+  background-color: lemonchiffon;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 1.5rem;
+  color: white;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.my-name {
+  font-size: 2rem;
+}
+
+.top-links {
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.top-links a {
+  color: lemonchiffon;
+}
+
+.top-links a:hover {
+  color: black;
+}
+
+.about {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: coral;
+}
+
+.about-title,
+.work-header,
+.contact-title {
+  font-size: 3rem;
+}
+
+.about-title,
+.contact-title {
+  border-right: 3px solid black;
+}
+
+.work-header {
+  border-left: 3px solid black;
+  text-align: right;
+}
+
+.work {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: lightgreen;
+}
+
+.contact {
+  display: flex;
+  padding: 2rem;
+  background-color: lemonchiffon;
+  justify-content: space-between;
+}
+
+.width {
+  width: 30%;
+}
+
+.width-25 {
+  width: 24%;
+}
+
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-work {
+  width: 30%;
+  display: flex;
+  position: relative;
+  border: 4px solid white;
+}
+
+.main-label {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  padding: 7px 7px 5px 0px;
+  background-color: white;
+  display: flex;
+  font-weight: bold;
+  padding-left: 0;
+  font-size: 1.1em;
+}
+
+.work-sample {
+  width: 49%;
+  height: 49%;
+  display: flex;
+  border: 3px solid white;
+  position: relative;
+}
+
+.work-label {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  padding: 5px 5px 5px 0px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.my-pic {
+  width: 20%;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.bottom-list {
+  display: inline;
+  padding: 0.5rem;
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-links a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.top-links a:hover {
+  color: black;
+}
+
+.bottom-links a:hover {
+  color: black;
+  border: 4px dotted grey;
+  padding: 5px;
+}
+
+.work-sample img {
+  width: 100%;
+}
+
+.main-work img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .work-grid {
+    width: 100%;
+    height: 100%;
+  }
+  .my-pic {
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-list,
+  .bottom-list {
+    flex-direction: column;
+  }
+  .about-title,
+  .work-header,
+  .contact-title {
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  .main-label {
+    padding: 0;
+  }
+  .main-work {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    display: block;
+  }
+
+  .work-header {
+    padding: 0;
+  }
+
+  p {
+    font-size: smaller;
+  }
+
+  .about-title,
+  .work-header,
+  .contact-title {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .main-work {
+    width: 60%;
+  }
+}
