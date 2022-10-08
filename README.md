@@ -16,10 +16,10 @@ The inspiration for this layout came from one of the examples that I found of ot
 
 #### Screenshots
 
-![Navigation bar and About Me](images/nav-and-about.png)
+![Navigation bar and About Me](./assets/images/nav-and-about.png)
 
-![My Work and Contact Me](images/work-and-contact.png)
+![My Work and Contact Me](./assets/images/work-and-contact.png)
 
-![Responsive Design Sample of top half](images/responsive1.png)
+![Responsive Design Sample of top half](./assets/images/responsive1.png)
 
-![Responsive Design Sample of bottom half](images/responsive2.png)
+![Responsive Design Sample of bottom half](./assets/images/responsive2.png)
