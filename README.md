@@ -1,5 +1,7 @@
 # Robert (Scott) Sterling - Professional Portfolio
 
+https://overnightsolo.github.io/scott-sterling-portfolio/
+
 ## Description
 
 My portfolio is a 4-level page with a navigation bar and a main body that utilizes a left-right-left design:
@@ -13,13 +15,3 @@ There is a responsive design aspect that allows the user to view my portfolio on
 ### Motivation
 
 The inspiration for this layout came from one of the examples that I found of other portfolios online, although mine is a very scaled-down version. For my first attempt at a portfolio, I wanted to create something simple and doable that would line up with my skill level but that I can fine tune and add to, as my repertoire increases in size and skill.
-
-#### Screenshots
-
-![Navigation bar and About Me](./assets/images/nav-and-about.png)
-
-![My Work and Contact Me](./assets/images/work-and-contact.png)
-
-![Responsive Design Sample of top half](./assets/images/responsive1.png)
-
-![Responsive Design Sample of bottom half](./assets/images/responsive2.png)
