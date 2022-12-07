@@ -12,8 +12,8 @@ body {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.12rem;
-  /* font-weight: 700; */
+  font-size: 1.3rem;
+  color: black;
 }
 
 .my-name {
